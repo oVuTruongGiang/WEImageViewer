@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'WEImageViewer_Example' do
+  #pod 'WEImageViewer', :path => '../'
+pod 'WEImageViewer'
+
+  target 'WEImageViewer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

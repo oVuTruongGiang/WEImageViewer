@@ -1,0 +1,36 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - PINCache (2.3)
+  - PINRemoteImage (2.1.4):
+    - PINRemoteImage/FLAnimatedImage (= 2.1.4)
+  - PINRemoteImage/Core (2.1.4):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/FLAnimatedImage (2.1.4):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - WEImageViewer (1.0.0):
+    - FLAnimatedImage
+    - PINRemoteImage
+
+DEPENDENCIES:
+  - WEImageViewer (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FLAnimatedImage
+    - PINCache
+    - PINRemoteImage
+
+EXTERNAL SOURCES:
+  WEImageViewer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINRemoteImage: 4ac4011c5caefd6befd99758e09becede05d3226
+  WEImageViewer: e4cde8a91e6a6d108e7e11aa4eeb973aa5389eac
+
+PODFILE CHECKSUM: bacae1fc12e2306b780a81df1da2a4e064fec39b
+
+COCOAPODS: 1.5.0

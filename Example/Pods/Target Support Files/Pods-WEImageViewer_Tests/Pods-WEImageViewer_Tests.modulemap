@@ -1,0 +1,6 @@
+framework module Pods_WEImageViewer_Tests {
+  umbrella header "Pods-WEImageViewer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

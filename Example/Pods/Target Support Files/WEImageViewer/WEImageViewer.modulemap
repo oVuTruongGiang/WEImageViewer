@@ -1,0 +1,6 @@
+framework module WEImageViewer {
+  umbrella header "WEImageViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}
